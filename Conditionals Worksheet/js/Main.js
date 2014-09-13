@@ -3,9 +3,9 @@
 // WPF
 //Conditionals Worksheet
 
-console.log("Conditionals Workcheet");
+console.log("Conditionals Worksheet");
 console.log ( );
-/*
+
 //Expressions with Conditionals
 //Last Chance for Gas
 
@@ -15,17 +15,17 @@ var tankPercent = 75;
 
 var tankCapacity = 45;
 
+var totalGas = tankPercent * tankCapacity;
 
-
-//
-if(tankPercentt < tankCapacity){
+//33.75
+if(totalGas >= gasMpg){
     console.log("Yes you can make it!");
 
 }else{
-    console.log("You only have X gallons of gas in your tank, better get gas now while you can!");
+    console.log("You only have "+totalGas+" gallons of gas in your tank, better get gas now while you can!");
 
 }
-*/
+
 
 /*
 //Multiple Results
@@ -58,20 +58,20 @@ if(userPassword >= password){
 
 }
 
-*/
+*//*
 
 //Multiple Conditions
 //Tire Pressure I
 
 var tirePressure = [52, 52, 52, 52];
 
-if(tirePressure[0] = tirePressure[1] = tirePressure[2] = tirePressure[3]){
+if(tirePressure[0] = tirePressure[1] = tirePressure[2] <= tirePressure[3]){
     console.log("The tires pass spec!")
 }else{
     console.log("Get your tires checked out!")
 }
 
-
+*/
 
 
 
