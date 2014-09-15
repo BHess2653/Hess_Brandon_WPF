@@ -14,7 +14,8 @@ if(min===""){
     min = /* Number(*/prompt("PLEASE enter a minimum number"/*)*/);
 }
 
-
+//isNAN
+if(isNaN(min)) || min==="")
 
 
 
