@@ -6,19 +6,28 @@
 console.log("Conditionals Worksheet");
 console.log ( );
 
+
 //Expressions with Conditionals
 //Last Chance for Gas
 
-var gasMpg = 29;
+var gasMpg = 30;
 
-var tankPercent = 75;
+var tankPercent = prompt("What is your Gas Gauge percent at?");
 
-var tankCapacity = 45;
+var tankCapacity = prompt("How many gallons does your car's tank hold?");
 
-var totalGas = tankPercent * tankCapacity;
+var totalGas = tankPercent/100 * tankCapacity;
 
-//33.75
-if(totalGas >= gasMpg){
+alert(totalGas);
+
+var tot = gasMpg * totalGas;
+
+alert(tot);
+
+var miles = 200;
+
+
+if(tot >= miles){
     console.log("Yes you can make it!");
 
 }else{
@@ -27,7 +36,7 @@ if(totalGas >= gasMpg){
 }
 
 
-/*
+
 //Multiple Results
 //Check the Login
 
@@ -58,7 +67,7 @@ if(userPassword >= password){
 
 }
 
-*//*
+
 
 //Multiple Conditions
 //Tire Pressure I
@@ -70,10 +79,6 @@ if(tirePressure[0] = tirePressure[1] = tirePressure[2] <= tirePressure[3]){
 }else{
     console.log("Get your tires checked out!")
 }
-
-*/
-
-
 
 
 
