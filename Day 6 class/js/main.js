@@ -15,7 +15,9 @@ if(min===""){
 }
 
 //isNAN
-if(isNaN(min)) || min==="")
+if(isNaN(min) || min===""){
+    
+}
 
 
 
