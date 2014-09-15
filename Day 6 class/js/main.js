@@ -14,12 +14,14 @@ if(min===""){
     min = /* Number(*/prompt("PLEASE enter a minimum number"/*)*/);
 }
 
-//isNAN
+//isNaN
 if(isNaN(min) || min===""){
-    min = prompt("PLease enter a number and do not leave blank");
+    min = prompt("Pease enter a number and do not leave blank");
 }
 
-
+if(isNaN(max) || max===""){
+    max = prompt("Please enter a number and do not leave blank");
+}
 
 
 
