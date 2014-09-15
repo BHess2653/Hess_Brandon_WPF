@@ -40,7 +40,11 @@ console.log(Math.ceil(num1));
 console.log(Math.floor(num1));
 //round num1 down
 
+var num2 = Math.random();
+console.log(num2);
 
+var num3 = Math.random()*10;
+console.log(num3);
 
 
 
