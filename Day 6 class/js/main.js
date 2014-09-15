@@ -16,7 +16,7 @@ if(min===""){
 
 //isNAN
 if(isNaN(min) || min===""){
-    
+    min = prompt("PLease enter a number and do not leave blank");
 }
 
 
