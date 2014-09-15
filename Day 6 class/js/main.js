@@ -23,9 +23,9 @@ if(isNaN(max) || max===""){
     max = prompt("Please enter a number and do not leave blank");
 }
 
+var randomNumber = Math.round(Math.random()*(Number(max)-Number(min))+min);
 
-
-
+console.log(randomNumber);
 
 
 
