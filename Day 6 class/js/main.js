@@ -42,10 +42,11 @@ console.log(Math.floor(num1));
 
 var num2 = Math.random();
 console.log(num2);
+//find a random number between 0 and 1
 
 var num3 = Math.random()*10;
 console.log(num3);
-
+//find a random number between 1 and 10
 
 
 
