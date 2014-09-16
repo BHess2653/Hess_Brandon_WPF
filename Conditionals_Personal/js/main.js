@@ -49,11 +49,3 @@ console.log("The Perimeter of the room is "+perimeter+"");
 alert("The perimeter of the room is "+perimeter+"ft");
 //Answer on browser
 
-
-
-
-
-
-
-
-
