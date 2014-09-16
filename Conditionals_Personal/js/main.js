@@ -8,7 +8,7 @@
 console.log("Personal");
 //Title
 
-alert("Perimeter of the room");
+alert("Area of the room");
 //Question
 
 var length = prompt("Please enter the length of your room");
@@ -40,12 +40,12 @@ if(isNaN(width) || width===""){
 }
 //Prompt if you leave width blank
 
-var perimeter = length*2 + width*2;
-//Perimeter
+var area = length * width;
+//Area
 
-console.log("The Perimeter of the room is "+perimeter+"");
+console.log("The Area of the room is "+area+"");
 //Answer in console
 
-alert("The perimeter of the room is "+perimeter+"ft");
+alert("The Area of the room is "+area+"ft");
 //Answer on browser
 

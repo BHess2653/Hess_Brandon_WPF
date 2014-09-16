@@ -1,26 +1,32 @@
 //Brandon Hess
-//9-10-2014
+//9-15-2014
 // WPF
-//Expressions
-
-
-
-//Industry-Specific
-console.log("2 - Industy-Specific");
-console.log("The Photo is 11in by 8in");
-var pHeight = prompt("Please enter photo height");
-var pWidth = prompt("Please enter photo width");
-var iHeight =825+"pixels";
-var iWidth =500+"pixels";
-console.log("The photo is 825 pixels by 500 pixels");
-alert("The photo is 825 pixels by 500 pixels");
-console.log( );
+//Conditionals
 
 
 //Industry-Specific
 
+console.log("yard to feet");
+alert("Yard to feet converter");
+
+var yard = prompt("Please enter amount in yards you want to convert");
+
+if(yard===""){
+    console.log("You did not enter an amount to convert!");
+    yard = prompt("ERROR! no amount entered please try again");
+}
+
+if(isNaN(yard) || yard===""){
+    yard = prompt("Please enter an amount and do not leave blank");
+}
 
 
+var feet = 3;
+
+var answer = yard * feet;
+
+console.log("Your answer is"+" "+ answer+"ft");
+alert("Your answer is "+" "+ answer+"ft");
 
 
 
