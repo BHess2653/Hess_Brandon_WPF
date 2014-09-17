@@ -23,6 +23,11 @@ if(isNaN(max) || max===""){
     max = prompt("Please enter a number and do not leave blank");
 }
 
+//while loop runs as long as condition is true
+while(isNaN(min) || min===""){
+    min = prompt("Please enter a number and do not leave blank");
+}
+
 var randomNumber = Math.round(Math.random()*(Number(max)-Number(min))+min);
 
 console.log(randomNumber);
@@ -47,13 +52,6 @@ console.log(num2);
 var num3 = Math.random()*10;
 console.log(num3);
 //find a random number between 1 and 10
-
-
-
-
-
-
-
 
 
 
