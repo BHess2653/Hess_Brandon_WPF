@@ -8,12 +8,21 @@
 
 //While Loop
 console.log("  While Loop  ");
+alert("While Loop");
 console.log( );
 
-var counter = 0;
-while(counter<200){
-    console.log("counter is counting!");
-    counter++; //counts untill condition is false
+var counter = 50;
+while(counter<101){
+    console.log("C");
+    alert("Shields "+counter+" % and rising");
+    counter++;
+
+    if(counter===101){
+
+        console.log("Shields fully charged!");
+        alert("Shields fully charged!");
+    }
+
 }
 
 
@@ -24,23 +33,28 @@ console.log( );
 
 //Do While Loop
 console.log("  Do While Loop  ");
+alert("Do While Loop");
 console.log( );
-
-var i = 0;
+console.log(" Doctor Who ");
+alert(" Doctor Who ")
+var i = 1;
 do{
-    console.log("The number is " + i);
+    console.log("Series 8 Episode " + i);
+    alert("Series 8 Episode " + i);
     i++;
 }
-while(i<21);
+while(i<6);
+
 
 
 console.log( );
 
 
-/*
+
 
 //For Loop
 console.log("  For Loop  ");
+alert("For Loop");
 console.log( );
 console.log("Vanguard Reputation");
 for(var i = 0; i < 1025; i += 25){
@@ -55,7 +69,7 @@ alert("Current Reputation: " +i+" points");
     }
 }
 
-*/
+
 
 
 
