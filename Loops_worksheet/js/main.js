@@ -31,7 +31,7 @@ do{
     console.log("The number is " + i);
     i++;
 }
-while(i<20);
+while(i<21);
 
 
 console.log( );
