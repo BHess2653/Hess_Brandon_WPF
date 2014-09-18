@@ -1,6 +1,8 @@
+//Brandon Hess
+//9-17-2014
+// WPF
+//Class loops
 
-
-/*
 
 //The while loop loops through a block of code as
 //long as a specified condition is true.
@@ -60,7 +62,7 @@ for(var j = 0; j<5; j++){
     console.log("j = " + j);
 }
 
-*//*
+
 
 
 //Create loop that makes the song 99 bottles of beer on the wall.
@@ -82,7 +84,7 @@ for(var i=99; i>0; i--){
     }
 }
 
-*/ /*
+
 
 
 //Zombie Madness!!
@@ -105,7 +107,7 @@ for(var i=1; i<=days; i++){
 }
 
 
-*/
+
 
 
 //cycle through array using loop
