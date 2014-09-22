@@ -1,6 +1,8 @@
-/**
- * Created by GM_Dahaka on 9/22/14.
- */
+//Brandon Hess
+//9-19-2014
+// WPF
+//Functions Worksheet
+
 
 
 

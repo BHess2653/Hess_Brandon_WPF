@@ -55,7 +55,7 @@ function calcArea(){
 
 console.log(area);
 
-*//*
+*/
 
 
 //Arguments & Parameters
@@ -84,6 +84,6 @@ var funcResult = calcArea(20,20);
 console.log(funcResult);
 
 
-*/
+
 
 
