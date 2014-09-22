@@ -120,7 +120,7 @@ console.log(testArray);
 //Class work
 
 //Regular Function
-//calculate area of rectangle w * h
+//calculate area of rectangle W * L
 
 var width = 50;
 var length = 100;
@@ -150,16 +150,17 @@ console.log(anon);
 
 
 //Anonymous Function
-//Perimeter of rectangle 2w + 2L
+//Perimeter of rectangle 2(W+L)
 
 
-var functionName = function(parameters){
+var RectangleP = function(w, l){
 
-    //code to execute;
-    //return value;
+    var perimeter = 2*(w + l);
+    return perimeter;
 }
 
-functionName(arguments);
+var anonTwo = RectangleP(width, length);
+console.log(anonTwo);
 
 
 
