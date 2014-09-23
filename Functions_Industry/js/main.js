@@ -8,32 +8,31 @@
 //Function
 alert("Meter to Millimeters");
 var meter = prompt("Please enter the amount you want converted to millimeters");
-var mil = 1000;
+var millimeters = 1000;
 console.log(meter+" meters");
-console.log(mil+" millimeters");
-console.log(meter+" X "+mil);
+console.log(millimeters+" millimeters");
+console.log(meter+" X "+millimeters);
 
-function funInfo(meter, mil) {
+var funInfo = function(m, mm){
 
-    var answer = meter * mil;
+    answer = m*mm;
     return answer;
 
+};
 
-}if(meter===""){
+if(meter===""){
     console.log("You did not enter an amount to convert!");
     meter = prompt("You did not enter an amount to convert!");
 
-}if(isNaN(meter) || meter===""){
-    meter = prompt("Pease enter an amount and do not leave it blank");
-
+}while(isNaN(meter) || meter===""){
+    meter = prompt("Please enter an amount and do not leave it blank");
 
 }
 
-alert( meter+" meters is "+meter * mil+" millimeters");
+var anon = funInfo(meter,millimeters);
 
-console.log(meter*mil+"mm");
-
-
+alert( meter+" meters is "+anon+" millimeters");
+console.log(anon+"mm");
 
 
 
