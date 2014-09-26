@@ -23,7 +23,7 @@ var disPer = prompt("Please enter your discount%");
 
 if(disPer>100){
 
-    disPer = prompt("Discount% you entered is to big enter between 0 -> 100")
+    disPer = prompt("Discount% you entered is to big. Enter between 0 -> 100")
 }
 
 while(disPer===""){
